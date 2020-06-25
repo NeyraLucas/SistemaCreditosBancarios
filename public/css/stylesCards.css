@@ -1,0 +1,33 @@
+.editBtn{
+	color: #808e9b !important;
+}
+.editBtn:hover{
+	color: #34e7e4 !important;
+}
+
+.fondoColor{
+	background-color:#01101b !important;
+}
+
+.fondoColorCards{
+	background-color:#091824 !important;
+}
+
+.fondoColorCardsContent{
+	background-color:#0f2233 !important;
+}
+
+.editCards{
+	color: #34e7e4 !important;
+}
+
+/*01101b---- 091824 --0c1b28 --- #34e7e4 ---- #2d3436 */
+
+.loginColor{
+	background-color:#f5f6fa !important;
+}
+
+.colorTablas{
+	background-color:#f5f6fa !important;
+
+}

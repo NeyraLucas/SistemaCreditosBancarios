@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/styles.css">
+    <link rel="stylesheet" href="../public/css/stylesCards.css">
+</head>
+<body class="loginColor">
+    <header>
+        <div>
+            <nav class="navbar bg-dark ">
+                <ul class="">
+                    <a class="text-light navbar-brand" href="login.html">
+                        CreditosBancarios
+                    </a> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="py-4">
+        <h3 class="text-center">Registro</h3>
+    </div>
+    
+    <div class="container py-2">
+        
+        <form action="" id="registroUsu" name="registroUsu">
+            <div class="">
+                <div class="form-group row">
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre:">
+                </div>
+                <div class="form-group row">
+                    <input type="text" class="form-control col-md-6 col-sm-6 col-6" name="apellidoP" id="apellidoP" placeholder="Apellido Paterno">
+                    <input type="text" class="form-control col-md-6 col-sm-6 col-6" name="apellidoM" id="apellidoM" placeholder="Apellido Materno">
+                </div>
+                <div class="form-group row">
+                    <input type="text" class="form-control" id="direccion"
+                    name="direccion" placeholder="Dirección">
+                </div>
+                <div class="form-group row">
+                    <input type="email" class="form-control col-md-6 col-sm-6 col-6" name="email" id="email" placeholder="Correo">
+                    <input type="text" class="form-control col-md-6 col-sm-6 col-6" name="cargo" id="cargo" placeholder="Cargo">
+                </div>
+                <div class="form-group row" >
+                    <input type="text" class="form-control col-md-6 col-sm-6 col-6" placeholder="Nombre de usuario:" name="login" id="login">
+                    <input type="password" class="form-control col-md-6 col-sm-6 col-6" placeholder="Contraseña" name="clave" id="clave">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-info " id="btnGuardar">REGISTRARSE</button>
+                </div>
+                <div class="text-center">
+                    ¿Ya tienes cuenta?<br>
+                    <a href="login.html">INGRESA</a>
+                </div> 
+            </div>
+            
+        </form>
+        
+
+    </div>
+
+
+    
+    
+<!---Librerias-->
+<!-- jQuery -->
+<script src="../public/js/jquery-3.1.1.min.js"></script>
+<!-- Bootstrap 3.3.5 -->
+<script src="../public/js/bootstrap.min.js"></script>
+<!-- Bootbox -->
+<script src="../public/js/bootbox.min.js"></script>
+<script src="js/registroUsu.js"></script>
+</body>
+</html>
